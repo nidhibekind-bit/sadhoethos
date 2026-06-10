@@ -1,1 +1,209 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#f4efe7;
+color:#1f2d24;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(
+rgba(0,0,0,.45),
+rgba(0,0,0,.45)
+),
+url('../images/hero.jpg');
+
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:30px 60px;
+}
+
+.logo img{
+height:75px;
+}
+
+.navbar ul{
+display:flex;
+gap:35px;
+list-style:none;
+}
+
+.navbar a{
+text-decoration:none;
+color:white;
+font-size:14px;
+letter-spacing:1px;
+text-transform:uppercase;
+}
+
+.hero-content{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+padding-left:100px;
+max-width:700px;
+}
+
+.hero-content h1{
+font-family:'Cormorant Garamond',serif;
+font-size:78px;
+font-weight:400;
+line-height:1.05;
+margin-bottom:25px;
+}
+
+.hero-content p{
+font-size:18px;
+max-width:500px;
+line-height:1.8;
+margin-bottom:40px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#38493e;
+color:white;
+text-decoration:none;
+width:fit-content;
+}
+
+.manifesto,
+.categories,
+.journal,
+.rituals,
+.newsletter{
+padding:120px 10%;
+}
+
+.manifesto{
+text-align:center;
+}
+
+.manifesto h2,
+.categories h2,
+.journal h2,
+.rituals h2,
+.newsletter h2{
+font-family:'Cormorant Garamond',serif;
+font-size:52px;
+font-weight:400;
+margin-bottom:30px;
+}
+
+.manifesto p{
+font-size:22px;
+line-height:2;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.card{
+background:white;
+padding:50px 30px;
+text-align:center;
+border:1px solid rgba(0,0,0,.05);
+}
+
+.card h3{
+font-family:'Cormorant Garamond',serif;
+font-size:32px;
+font-weight:400;
+margin-bottom:15px;
+}
+
+.card span{
+font-size:13px;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#7c7c7c;
+}
+
+.journal-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:50px;
+}
+
+.journal-card{
+background:#1f2d24;
+color:white;
+padding:60px 40px;
+min-height:220px;
+display:flex;
+align-items:flex-end;
+}
+
+.journal-card h3{
+font-family:'Cormorant Garamond',serif;
+font-size:34px;
+font-weight:400;
+}
+
+.newsletter{
+text-align:center;
+background:#e7dfd3;
+}
+
+.newsletter p{
+font-size:18px;
+}
+
+footer{
+background:#1f2d24;
+color:white;
+text-align:center;
+padding:50px;
+line-height:2;
+}
+
+@media(max-width:768px){
+
+.navbar{
+padding:25px;
+flex-direction:column;
+gap:20px;
+}
+
+.navbar ul{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.hero-content{
+padding:40px;
+}
+
+.hero-content h1{
+font-size:52px;
+}
+
+.journal-grid{
+grid-template-columns:1fr;
+}
+
+}
