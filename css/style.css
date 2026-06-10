@@ -33,6 +33,13 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:30px 60px;
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:1000;
+  
   background: linear-gradient(
         to bottom,
         rgba(0,0,0,0.65),
