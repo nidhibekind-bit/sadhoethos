@@ -279,7 +279,7 @@ animation:float 12s infinite ease-in-out;
 .fireflies span:nth-child(11){left:70%;top:50%;animation-delay:10s;}
 .fireflies span:nth-child(12){left:90%;top:60%;animation-delay:11s;}
 
-@keyframes float{
+@keyframes float {
 
 0%{
 transform:translateY(0px);
@@ -287,20 +287,20 @@ opacity:0;
 }
 
 20%{
-opacity:.8;
+opacity:.3;
 }
 
 50%{
-transform:translateY(-25px);
-opacity:1;
-}
-
-80%{
+transform:translateY(-15px);
 opacity:.6;
 }
 
+80%{
+opacity:.3;
+}
+
 100%{
-transform:translateY(-50px);
+transform:translateY(-30px);
 opacity:0;
 }
 
