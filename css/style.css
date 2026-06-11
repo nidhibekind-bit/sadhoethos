@@ -190,7 +190,9 @@ height:220px;
 object-fit:cover;
 display:block;
 }
-
+.journal-card{
+overflow:hidden;
+}
 .journal-card{
 background:#1f2d24;
 color:white;
