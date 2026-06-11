@@ -341,3 +341,14 @@ pointer-events:none;
 
 animation:movingMist 40s linear infinite;
 }
+@keyframes movingMist{
+
+0%{
+transform:translateX(0);
+}
+
+100%{
+transform:translateX(20%);
+}
+
+}
