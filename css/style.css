@@ -27,6 +27,13 @@ background-size:cover;
 background-position:center;
 color:white;
 }
+.hero-tags{
+font-size:12px;
+letter-spacing:4px;
+text-transform:uppercase;
+margin-bottom:25px;
+opacity:.85;
+}
 
 .navbar{
 display:flex;
