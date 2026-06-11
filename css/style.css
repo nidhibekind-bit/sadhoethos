@@ -252,14 +252,15 @@ pointer-events:none;
 
 .fireflies span{
 position:absolute;
-width:4px;
-height:4px;
+width:12px;
+height:12px;
 background:#ffd67d;
 border-radius:50%;
 box-shadow:
-0 0 8px #ffd67d,
-0 0 16px #ffd67d;
-opacity:0;
+0 0 20px #ffd67d,
+0 0 40px #ffd67d,
+0 0 60px #ffd67d;
+opacity:1;
 animation:float 12s infinite ease-in-out;
 }
 
