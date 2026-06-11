@@ -209,16 +209,6 @@ line-height:1.2;
 .journal-card:hover{
 transform:translateY(-6px);
 }
-.card img{
-width:100%;
-height:220px;
-object-fit:cover;
-display:block;
-}
-
-.card{
-overflow:hidden;
-}
 
 .newsletter{
 text-align:center;
