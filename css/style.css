@@ -158,7 +158,7 @@ text-align:center;
 border:1px solid rgba(0,0,0,.05);
 overflow:hidden;
 padding-bottom:35px;
-transition:all .4s ease;
+transition:all .35s ease;
 }
 .card:hover{
 transform:translateY(-8px);
