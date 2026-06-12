@@ -180,8 +180,8 @@ padding-bottom:35px;
 transition:all .35s ease;
 }
 .card:hover{
-transform:translateY(-8px);
-box-shadow:0 20px 40px rgba(0,0,0,.08);
+transform:translateY(-12px);
+box-shadow:0 30px 60px rgba(0,0,0,.12);
 }
 
 .card img{
