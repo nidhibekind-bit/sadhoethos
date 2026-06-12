@@ -109,6 +109,7 @@ background:#38493e;
 color:white;
 text-decoration:none;
 width:fit-content;
+  transition:all .35s ease;
 }
 
 .manifesto,
