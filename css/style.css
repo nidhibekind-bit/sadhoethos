@@ -148,11 +148,11 @@ margin-top:50px;
 
 .card{
 background:white;
-padding:50px 30px;
 text-align:center;
 border:1px solid rgba(0,0,0,.05);
+overflow:hidden;
+padding-bottom:35px;
 }
-
 
 .card{
 overflow:hidden;
