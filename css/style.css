@@ -230,7 +230,12 @@ line-height:1.2;
 .journal-card:hover{
 transform:translateY(-6px);
 }
-
+.card{
+background:white;
+padding:50px 30px;
+text-align:center;
+border:1px solid rgba(0,0,0,.05);
+}
 .newsletter{
 text-align:center;
 background:#e7dfd3;
