@@ -537,6 +537,71 @@ width:100%;
 .newsletter-form button{
 width:100%;
 }
+
+.logo img{
+height:70px;
+}
+
+.navbar{
+padding:15px 20px;
+}
+
+.navbar ul{
+gap:18px;
+}
+
+.navbar a{
+font-size:12px;
+letter-spacing:1.5px;
+}
+
+.hero-content{
+padding:30px;
+}
+
+.hero-content h1{
+font-size:36px;
+line-height:1.15;
+}
+
+.btn{
+padding:14px 24px;
+font-size:15px;
+}
+
+.manifesto,
+.categories,
+.journal,
+.rituals,
+.newsletter{
+padding:80px 7%;
+}
+
+.manifesto h2,
+.categories h2,
+.journal h2,
+.rituals h2,
+.newsletter h2{
+font-size:42px;
+line-height:1.15;
+}
+
+.manifesto p{
+font-size:18px;
+line-height:1.9;
+}
+
+.newsletter-form input,
+.newsletter-form button{
+width:100%;
+}
+
+.card:hover,
+.journal-card:hover{
+transform:none;
+box-shadow:none;
+}
+  
 .footer-logo{
 height:55px;
 }
