@@ -12,5 +12,27 @@ navbar.classList.add("scrolled");
 navbar.classList.remove("scrolled");
 
 }
+const reveals = document.querySelectorAll(".reveal");
 
+window.addEventListener("scroll", revealSections);
+
+function revealSections(){
+
+reveals.forEach(section=>{
+
+const trigger = window.innerHeight * .85;
+
+const top = section.getBoundingClientRect().top;
+
+if(top < trigger){
+
+section.classList.add("active");
+
+}
+
+});
+
+}
+
+revealSections();
 });
