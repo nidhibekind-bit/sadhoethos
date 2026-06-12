@@ -410,25 +410,45 @@ line-height:2;
 @media(max-width:768px){
 
 .navbar{
-padding:25px;
+padding:20px;
 flex-direction:column;
-gap:20px;
+align-items:center;
+gap:15px;
+}
+
+.navbar.scrolled{
+background:rgba(16,37,28,.95);
+backdrop-filter:blur(12px);
+padding:15px 20px;
+}
+
+.logo img{
+height:65px;
 }
 
 .navbar ul{
 flex-wrap:wrap;
 justify-content:center;
+gap:12px;
 }
-.navbar.scrolled{
 
-background:rgba(16,37,28,.95);
-
-backdrop-filter:blur(12px);
-
-padding:15px 50px;
+.navbar a{
+font-size:12px;
 }
+
+.hero{
+height:100vh;
+}
+
 .hero-content{
-padding:40px;
+padding:25px;
+padding-top:140px;
+max-width:100%;
+}
+
+.hero-tags{
+font-size:10px;
+letter-spacing:2px;
 }
 
 .hero-content h1{
@@ -436,8 +456,70 @@ font-size:42px;
 line-height:1.1;
 }
 
+.hero-content p{
+font-size:16px;
+line-height:1.7;
+max-width:100%;
+}
+
+.manifesto,
+.categories,
+.journal,
+.rituals,
+.newsletter{
+padding:80px 7%;
+}
+
+.manifesto h2,
+.categories h2,
+.journal h2,
+.rituals h2,
+.newsletter h2{
+font-size:42px;
+}
+
+.manifesto p{
+font-size:18px;
+line-height:1.8;
+}
+
+.grid{
+grid-template-columns:1fr;
+gap:30px;
+}
+
 .journal-grid{
 grid-template-columns:1fr;
+gap:30px;
+}
+
+.card img{
+height:240px;
+}
+
+.journal-card img{
+height:220px;
+}
+
+.newsletter-copy{
+font-size:16px;
+}
+
+.newsletter-form{
+flex-direction:column;
+max-width:100%;
+}
+
+.newsletter-form input{
+width:100%;
+}
+
+.newsletter-form button{
+width:100%;
+}
+
+.footer-logo{
+height:55px;
 }
 
 }
