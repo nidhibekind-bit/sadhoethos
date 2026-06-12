@@ -78,6 +78,20 @@ text-transform:uppercase;
   position:relative;
   
 }
+.navbar a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-6px;
+width:0;
+height:1px;
+background:white;
+transition:.3s;
+}
+
+.navbar a:hover::after{
+width:100%;
+}
 
 .hero-content{
 height:80vh;
