@@ -268,6 +268,35 @@ background:#e7dfd3;
 .newsletter p{
 font-size:18px;
 }
+.newsletter-copy{
+max-width:600px;
+margin:0 auto 40px;
+line-height:1.9;
+color:#555;
+}
+
+.newsletter-form{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:30px;
+}
+
+.newsletter-form input{
+width:350px;
+padding:16px 20px;
+border:none;
+outline:none;
+font-size:15px;
+}
+
+.newsletter-form button{
+padding:16px 30px;
+background:#1f2d24;
+color:white;
+border:none;
+cursor:pointer;
+}
 
 footer{
 background:#1f2d24;
