@@ -453,4 +453,13 @@ line-height:1.8;
 color:#666;
 font-size:17px;
 }
+.footer-logo{
+height:80px;
+margin-bottom:25px;
+}
+
+footer p{
+margin-bottom:12px;
+opacity:.9;
+}
 }
