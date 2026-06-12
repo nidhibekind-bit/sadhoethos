@@ -154,6 +154,34 @@ overflow:hidden;
 padding-bottom:35px;
 }
 
+.card img{
+width:100%;
+height:260px;
+object-fit:cover;
+display:block;
+margin-bottom:25px;
+}
+
+.card h3{
+font-family:'Cormorant Garamond',serif;
+font-size:32px;
+font-weight:400;
+margin-bottom:15px;
+padding:0 25px;
+}
+
+.card p{
+padding:0 25px;
+margin-bottom:20px;
+}
+
+.card span{
+display:block;
+letter-spacing:2px;
+font-size:12px;
+text-transform:uppercase;
+}
+
 .card{
 overflow:hidden;
 }
