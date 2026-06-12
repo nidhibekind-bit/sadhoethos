@@ -247,7 +247,12 @@ line-height:1.2;
 .journal-card:hover{
 transform:translateY(-6px);
 }
-
+.categories h2,
+.journal h2,
+.rituals h2{
+text-align:center;
+margin-bottom:60px;
+}
 
 .newsletter{
 text-align:center;
@@ -404,5 +409,6 @@ transform:translateX(0);
 100%{
 transform:translateX(20%);
 }
+  
 
 }
