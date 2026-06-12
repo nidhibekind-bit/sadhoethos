@@ -368,6 +368,29 @@ text-transform:uppercase;
 
 color:#8a8a8a;
 }
+.newsletter{
+position:relative;
+overflow:hidden;
+}
+.newsletter::before{
+
+content:"✦";
+
+position:absolute;
+
+left:50%;
+
+top:50px;
+
+transform:translateX(-50%);
+
+font-size:24px;
+
+opacity:.25;
+
+color:#38493e;
+}
+
 
 footer{
 background:#1f2d24;
